@@ -224,3 +224,89 @@ border: 1px solid #FFFFFF;
   top:635px;
   left: 865px;
 }
+
+/* design section*/
+
+.smart-design {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -111px;
+  margin-bottom: -111px;
+  height: 842px;
+}
+
+.info-smart-design {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.info-smart-design h3 {
+  position: relative;
+  top: -35px;
+  left: 268px;
+  height: 57px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+  margin: 0;
+}
+
+.info-smart-design p {
+  position: relative;
+  top: -13px;
+  left: 268px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4E4E4E;
+  margin: 0;
+}
+
+.smart-design button {
+  position: relative;
+  top: 16px;
+  left:268px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 184px;
+  height: 46px;
+  background: #00AFDB;
+  border: none;
+  margin: 0;
+}
+
+.smart-design button:hover {
+  background: #009cc2;
+}
+
+.design-image {
+  width: 407px;
+  height: 582px;
+  background-image: url(assets/content-image-1.png);
+  position: relative;
+  top: -10px;
+  left:-270px;
+}
