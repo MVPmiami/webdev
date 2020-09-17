@@ -1,0 +1,226 @@
+html {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  position: absolute;
+  top: -1000px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigationn menu*/
+
+header {
+  width: 100%;
+  height: 95px;
+  z-index: 1;
+}
+
+nav {
+  width: 582px;
+  align-items: center;
+  margin: 0px 516px 0px 502px;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.6px;
+  height: 20px;
+  width: 38px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #00afdb;
+}
+
+.logo {
+  background-image: url(assets/logo.png);
+  width: 44px;
+  height: 44px;
+}
+
+#about {
+  position: absolute;
+  top: 39px;
+  left: 654px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+#about:hover {
+  border-bottom: 1px solid #00afdb;
+}
+
+#underline {
+position: absolute;
+width: 39px;
+height: 0px;
+left: 653px;
+top: 58px;
+border: 1px solid #FFFFFF;
+}
+
+#Syllabus {
+  font-weight: 400;
+  position: absolute;
+  top: 39px;
+  left: 776px;
+  opacity: 0.8;
+}
+
+#logo {
+  position: absolute;
+  top: 26px;
+  left: 930px;
+  width: 44px;
+  height: 44px;
+}
+
+#projects {
+  font-weight: 400;
+  position: absolute;
+  top: 38px;
+  left: 1075px;
+  opacity: 0.8;
+}
+
+#FAQ {
+  font-weight: 400;
+  position: absolute;
+  top: 38px;
+  left: 1210px;
+  opacity: 0.8;
+}
+
+/* life-is-webdev section*/
+
+.life-is-webdev {
+  background-image: url(assets/life-mail-image.jpg);
+  width: 1600px;
+  height: 744px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  position: relative;
+  top: -111px;
+}
+
+.life-is-webdev h2 {
+  position: absolute;
+  top:177px;
+  left:436px;
+  height: 75px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.life-is-webdev p {
+  position: absolute;
+  top:308px;
+  left: 577px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  height: 50px;
+}
+
+.life-is-webdev button {
+  position: absolute;
+  top: 406px;
+  left: 707px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 184px;
+  height: 46px;
+  background: #00AFDB;
+  border: none;
+}
+
+.life-is-webdev button:hover {
+  background: #009cc2;
+}
+
+.social ul {
+  list-style: none;
+  display: flex;
+}
+
+.social ul li a {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+
+#mail {
+  background-image: url(assets/mail.png);
+  position: absolute;
+  top:635px;
+  left: 715px;
+}
+
+#facebook {
+  background-image: url(assets/facebook.png);
+  position: absolute;
+  top:635px;
+  left: 765px;
+}
+
+#insta {
+  background-image: url(assets/insta.png);
+  position: absolute;
+  top:635px;
+  left: 815px;
+}
+
+#telegram {
+  background-image: url(assets/telegram.png);
+  position: absolute;
+  top:635px;
+  left: 865px;
+}
