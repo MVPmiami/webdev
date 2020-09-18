@@ -67,7 +67,7 @@ nav ul li a:hover {
 
 #about {
   position: absolute;
-  top: 26px;
+  top: 23px;
   left: 654px;
   border-bottom: 1px solid #FFFFFF;
 }
@@ -88,14 +88,14 @@ border: 1px solid #FFFFFF;
 #Syllabus {
   font-weight: 400;
   position: absolute;
-  top: 26px;
+  top: 23px;
   left: 776px;
   opacity: 0.8;
 }
 
 #logo {
   position: absolute;
-  top: 13px;
+  top: 10px;
   left: 930px;
   width: 44px;
   height: 44px;
@@ -104,7 +104,7 @@ border: 1px solid #FFFFFF;
 #projects {
   font-weight: 400;
   position: absolute;
-  top: 26px;
+  top: 23px;
   left: 1075px;
   opacity: 0.8;
 }
@@ -112,7 +112,7 @@ border: 1px solid #FFFFFF;
 #FAQ {
   font-weight: 400;
   position: absolute;
-  top: 26px;
+  top: 23px;
   left: 1210px;
   opacity: 0.8;
 }
@@ -127,7 +127,7 @@ border: 1px solid #FFFFFF;
   background-size: cover;
   color: white;
   position: relative;
-  top: -123px;
+  top: -126px;
 }
 
 .life-is-webdev h2 {
@@ -234,8 +234,8 @@ border: 1px solid #FFFFFF;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  top: -124px;
-  margin-bottom: -124px;
+  top: -126px;
+  margin-bottom: -126px;
   height: 842px;
   background: #ffffff;
 }
@@ -467,4 +467,79 @@ border: 1px solid #FFFFFF;
     width: 20px;
     height: 244px;
     overflow: hidden;
+  }
+
+  /* Implement section */
+
+  .implement {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 842px;
+    background: #ffffff;
+  }
+
+  .implement-image {
+    position: relative;
+    top: -10px;
+    left: 269px;
+    background-image: url(assets/implement-image.png);
+    width: 407px;
+    height: 582px;
+  }
+
+  .info-for-implement h2 {
+    position: relative;
+    top: -29px;
+    left: -382px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+  }
+
+  .info-for-implement p {
+    position: relative;
+    top: -27px;
+    left: -381px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+  }
+
+  .info-for-implement button {
+    position: relative;
+    top: -11px;
+    left: -381px;
+    width: 180px;
+    height: 46px;
+    background: #00AFDB;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    justify-content: center;
+    border: none;
+  }
+
+  .info-for-implement button:hover {
+    background: #009cc2;
   }
