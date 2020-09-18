@@ -621,3 +621,165 @@ border: 1px solid #FFFFFF;
     background-size: cover;
     background-position: center;  
   }
+
+  /* download section */
+
+  .download {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 468px;
+    background: #f5f6f7;
+  }
+
+  .download h2 {
+    position: relative;
+    top: -42px;
+    left: 1px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+  }
+
+  .download p {
+    position: relative;
+    top: -54px;
+    left: 1px;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4E4E4E;
+  }
+
+  .markets {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 426px;
+  }
+
+  .apple-store {
+    position: relative;
+    top: -38px;
+    left: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #first-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 128px;
+    height: 50px;
+    background: #00AFDB;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    padding: 0;
+  }
+
+  #first-button:hover {
+    background: #009cc2;
+  }
+
+  #second-button {
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   height: 50px;
+   background: #009cc2;
+   border: none;
+  }
+
+  #second-button:hover {
+    background: #00afdb;
+  }
+
+  .logo-apple {
+    background-image: url(assets/logo-apple.png);
+    width: 16.97px;
+    height: 19.25px;
+  }
+
+  .play-market {
+    position: relative;
+    top: -38px;
+    left: -10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #third-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 128px;
+    height: 50px;
+    background: #00AFDB;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    padding: 0;
+  }
+
+  #third-button:hover {
+    background: #009cc2;
+  }
+
+  #fourth-button {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 50px;
+    background: #009cc2;
+    border: none;
+  }
+
+  #fourth-button:hover {
+    background: #00afdb;
+  }
+
+  .logo-play-market {
+    position: relative;
+    top: -2px;
+    left: 1px;
+    background-image: url(assets/logo-play-market.png);
+    width: 20.97px;
+    height: 21.25px;
+  }
