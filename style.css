@@ -67,7 +67,7 @@ nav ul li a:hover {
 
 #about {
   position: absolute;
-  top: 23px;
+  top: 19px;
   left: 654px;
   border-bottom: 1px solid #FFFFFF;
 }
@@ -88,14 +88,14 @@ border: 1px solid #FFFFFF;
 #Syllabus {
   font-weight: 400;
   position: absolute;
-  top: 23px;
+  top: 19px;
   left: 776px;
   opacity: 0.8;
 }
 
 #logo {
   position: absolute;
-  top: 10px;
+  top: 6px;
   left: 930px;
   width: 44px;
   height: 44px;
@@ -104,7 +104,7 @@ border: 1px solid #FFFFFF;
 #projects {
   font-weight: 400;
   position: absolute;
-  top: 23px;
+  top: 19px;
   left: 1075px;
   opacity: 0.8;
 }
@@ -112,7 +112,7 @@ border: 1px solid #FFFFFF;
 #FAQ {
   font-weight: 400;
   position: absolute;
-  top: 23px;
+  top: 19px;
   left: 1210px;
   opacity: 0.8;
 }
@@ -127,7 +127,7 @@ border: 1px solid #FFFFFF;
   background-size: cover;
   color: white;
   position: relative;
-  top: -126px;
+  top: -130px;
 }
 
 .life-is-webdev h2 {
@@ -234,8 +234,8 @@ border: 1px solid #FFFFFF;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  top: -126px;
-  margin-bottom: -126px;
+  top: -130px;
+  margin-bottom: -130px;
   height: 842px;
   background: #ffffff;
 }
@@ -542,4 +542,82 @@ border: 1px solid #FFFFFF;
 
   .info-for-implement button:hover {
     background: #009cc2;
+  }
+
+  /* subscribe section*/
+
+  .subscribe {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 598px;
+    background-image: url(assets/subscribe-image.png);
+  }
+
+  .subscribe h2 {
+    position: relative;
+    top: -47px;
+    left: 1px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .mail {
+    display: flex;
+    flex-flow: row;
+  }
+
+  .mail input {
+    position: relative;
+    top: -34px;
+    left: 0px;
+    width: 316px;
+    min-height: 43px;
+    padding: 1px 0px 0px 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: #373737;
+  }
+
+  .mail button {
+    position: relative;
+    top: -34px;
+    left: 0px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 46px;
+    background: #00AFDB;
+    border: none;
+    padding: 0;
+  }
+
+  .mail button:hover {
+    background: #009cc2;
+  }
+
+  .check {
+    background-image: url(assets/check.png);
+    width: 19px;
+    height: 14.52px;
+    background-size: cover;
+    background-position: center;  
   }
