@@ -492,7 +492,7 @@ border: 1px solid #FFFFFF;
   .info-for-implement h2 {
     position: relative;
     top: -29px;
-    left: -382px;
+    left: -380px;
     height: 28px;
     font-family: Roboto;
     font-style: normal;
@@ -557,7 +557,7 @@ border: 1px solid #FFFFFF;
 
   .subscribe h2 {
     position: relative;
-    top: -47px;
+    top: -46px;
     left: 1px;
     height: 28px;
     font-family: Roboto;
@@ -855,3 +855,4 @@ border: 1px solid #FFFFFF;
     color: #818181;
   }
 
+/*end*/
